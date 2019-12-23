@@ -15,3 +15,5 @@ else if (random1<random2){
 else{
   document.querySelector("h1").textContent="Draw!";
 }
+
+alert("Refresh page for a new game!");
