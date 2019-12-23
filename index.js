@@ -7,11 +7,11 @@ var dice2= "dice"+random2+".png";
 document.querySelector(".img2").setAttribute("src", dice2);
 
 if (random1>random2){
-  document.querySelector("h1").textContent="🎉Player 1 wins!";
+  document.querySelector("h1").textContent="🚩Player 1 wins!";
 }
 else if (random1<random2){
-    document.querySelector("h1").textContent="Player 2 wins!🎉";
+    document.querySelector("h1").textContent="Player 2 wins!🚩";
 }
 else{
-  document.querySelector("h1").textContent="Draw";
+  document.querySelector("h1").textContent="Draw!";
 }
